@@ -1,0 +1,25 @@
+{
+    "name": "iggyvolz/html",
+    "description": "HTML generator",
+    "type": "library",
+    "license": "0BSD",
+    "autoload": {
+        "psr-4": {
+            "iggyvolz\\html\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Katie Volz",
+            "email": "iggyvolz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.1.*"
+    },
+    "require-dev": {
+        "ext-dom": "20031129",
+        "ext-libxml": "*",
+        "nette/php-generator": "^4.0"
+    }
+}
