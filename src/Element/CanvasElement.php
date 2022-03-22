@@ -44,6 +44,9 @@ final class CanvasElement extends \iggyvolz\html\Element
         ?string $tabindex = null,
         ?string $title = null,
         ?string $translate = null,
+        ?string $class = null,
+        ?string $id = null,
+        ?string $slot = null,
         ?string $width = null,
         ?string $height = null
     ) {
@@ -70,6 +73,9 @@ final class CanvasElement extends \iggyvolz\html\Element
             'tabindex' => $tabindex,
             'title' => $title,
             'translate' => $translate,
+            'class' => $class,
+            'id' => $id,
+            'slot' => $slot,
             'width' => $width,
             'height' => $height,
         ], fn(?string $s) => !is_null($s));

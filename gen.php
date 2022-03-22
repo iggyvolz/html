@@ -35,7 +35,7 @@ $voidElements = array_map(trim(...), explode(",", $dom->getElementById("void-ele
 $escapableRawTextElements = array_map(trim(...), explode(",", $dom->getElementById("escapable-raw-text-elements")->parentNode->nextElementSibling->textContent));
 $rawTextElements = array_map(trim(...), explode(",", $dom->getElementById("raw-text-elements")->parentNode->nextElementSibling->textContent));
 $rows = iterator_to_array(iterator_to_array($dom->getElementById("elements-3")->nextElementSibling->nextElementSibling->getElementsByTagName("tbody"))[0]->getElementsByTagName("tr"));
-$globalAttributes = array_map(trim(...), array_map(fn(DOMElement $x) => $x->textContent, iterator_to_array($dom->getElementById("global-attributes")->nextElementSibling->nextElementSibling->nextElementSibling->childNodes)));
+$globalAttributes = [...array_map(trim(...), array_map(fn(DOMElement $x) => $x->textContent, iterator_to_array($dom->getElementById("global-attributes")->nextElementSibling->nextElementSibling->nextElementSibling->childNodes))), "class", "id", "slot"];
 /** @var DOMElement[] $rows */
 foreach($rows as $row) {
     /** @var DOMElement[] $childNodes */

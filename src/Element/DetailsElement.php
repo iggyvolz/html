@@ -44,6 +44,9 @@ final class DetailsElement extends \iggyvolz\html\Element
         ?string $tabindex = null,
         ?string $title = null,
         ?string $translate = null,
+        ?string $class = null,
+        ?string $id = null,
+        ?string $slot = null,
         ?string $open = null
     ) {
         $attributes = \array_filter([
@@ -69,6 +72,9 @@ final class DetailsElement extends \iggyvolz\html\Element
             'tabindex' => $tabindex,
             'title' => $title,
             'translate' => $translate,
+            'class' => $class,
+            'id' => $id,
+            'slot' => $slot,
             'open' => $open,
         ], fn(?string $s) => !is_null($s));
         parent::__construct(self::ELEMENT_NAME, $attributes, $children);

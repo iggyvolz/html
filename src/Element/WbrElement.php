@@ -41,7 +41,10 @@ final class WbrElement extends \iggyvolz\html\Element
         ?string $style = null,
         ?string $tabindex = null,
         ?string $title = null,
-        ?string $translate = null
+        ?string $translate = null,
+        ?string $class = null,
+        ?string $id = null,
+        ?string $slot = null
     ) {
         $children = [];
         $attributes = \array_filter([
@@ -67,6 +70,9 @@ final class WbrElement extends \iggyvolz\html\Element
             'tabindex' => $tabindex,
             'title' => $title,
             'translate' => $translate,
+            'class' => $class,
+            'id' => $id,
+            'slot' => $slot,
         ], fn(?string $s) => !is_null($s));
         parent::__construct(self::ELEMENT_NAME, $attributes, $children);
     }

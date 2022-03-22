@@ -42,6 +42,9 @@ final class BaseElement extends \iggyvolz\html\Element
         ?string $tabindex = null,
         ?string $title = null,
         ?string $translate = null,
+        ?string $class = null,
+        ?string $id = null,
+        ?string $slot = null,
         ?string $href = null,
         ?string $target = null
     ) {
@@ -69,6 +72,9 @@ final class BaseElement extends \iggyvolz\html\Element
             'tabindex' => $tabindex,
             'title' => $title,
             'translate' => $translate,
+            'class' => $class,
+            'id' => $id,
+            'slot' => $slot,
             'href' => $href,
             'target' => $target,
         ], fn(?string $s) => !is_null($s));
