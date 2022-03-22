@@ -33,7 +33,7 @@ abstract class Element implements \Stringable
 
     protected function innerHtml(): string
     {
-        return implode("", $this->children);
+        return implode("", array_map(fn(Element|string $x) => is_string($x) ? htmlspecialchars($x) : $x, $this->children));
     }
 
     protected function openTag(): string
