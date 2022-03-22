@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: text
  * Attributes: globals
  */
-final class RpElement extends \iggyvolz\html\Element
+class RpElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'rp';
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: option,optgroup,script-supporting elements
  * Attributes: globals,autocomplete,disabled,form,multiple,name,required,size
  */
-final class SelectElement extends \iggyvolz\html\Element
+class SelectElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'select';
 

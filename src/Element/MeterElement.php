@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals,value,min,max,low,high,optimum
  */
-final class MeterElement extends \iggyvolz\html\Element
+class MeterElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'meter';
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: dt,dd,div,script-supporting elements
  * Attributes: globals
  */
-final class DListElement extends \iggyvolz\html\Element
+class DListElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'dl';
 

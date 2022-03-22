@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals
  */
-final class BRElement extends \iggyvolz\html\Element
+class BRElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

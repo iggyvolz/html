@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals
  */
-final class SElement extends \iggyvolz\html\Element
+class SElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 's';
 

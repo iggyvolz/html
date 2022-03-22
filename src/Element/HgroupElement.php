@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: h1,h2,h3,h4,h5,h6,script-supporting elements
  * Attributes: globals
  */
-final class HgroupElement extends \iggyvolz\html\Element
+class HgroupElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'hgroup';
 

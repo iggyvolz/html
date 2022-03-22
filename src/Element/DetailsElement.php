@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: summary,flow
  * Attributes: globals,open
  */
-final class DetailsElement extends \iggyvolz\html\Element
+class DetailsElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'details';
 

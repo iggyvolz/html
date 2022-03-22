@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: source,track,transparent
  * Attributes: globals,src,crossorigin,preload,autoplay,loop,muted,controls
  */
-final class AudioElement extends \iggyvolz\html\Element
+class AudioElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'audio';
 

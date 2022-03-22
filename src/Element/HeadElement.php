@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: metadata content
  * Attributes: globals
  */
-final class HeadElement extends \iggyvolz\html\Element
+class HeadElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'head';
 

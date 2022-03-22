@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: transparent
  * Attributes: globals,width,height
  */
-final class CanvasElement extends \iggyvolz\html\Element
+class CanvasElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'canvas';
 

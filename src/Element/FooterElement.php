@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals
  */
-final class FooterElement extends \iggyvolz\html\Element
+class FooterElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'footer';
 

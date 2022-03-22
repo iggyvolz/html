@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: text
  * Attributes: globals,disabled,label,selected,value
  */
-final class OptionElement extends \iggyvolz\html\Element
+class OptionElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'option';
 

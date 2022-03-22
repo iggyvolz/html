@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals
  */
-final class StrongElement extends \iggyvolz\html\Element
+class StrongElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'strong';
 

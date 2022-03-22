@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: source,one img,script-supporting elements
  * Attributes: globals
  */
-final class PictureElement extends \iggyvolz\html\Element
+class PictureElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'picture';
 

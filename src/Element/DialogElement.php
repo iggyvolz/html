@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals,open
  */
-final class DialogElement extends \iggyvolz\html\Element
+class DialogElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'dialog';
 

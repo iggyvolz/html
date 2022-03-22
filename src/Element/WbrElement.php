@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals
  */
-final class WbrElement extends \iggyvolz\html\Element
+class WbrElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

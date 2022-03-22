@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals,value
  */
-final class LIElement extends \iggyvolz\html\Element
+class LIElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'li';
 

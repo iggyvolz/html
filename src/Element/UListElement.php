@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: li,script-supporting elements
  * Attributes: globals
  */
-final class UListElement extends \iggyvolz\html\Element
+class UListElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'ul';
 

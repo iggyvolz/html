@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: text
  * Attributes: globals,cols,dirname,disabled,form,maxlength,minlength,name,placeholder,readonly,required,rows,wrap
  */
-final class TextAreaElement extends \iggyvolz\html\Element
+class TextAreaElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\EscapableRawTextElement;
 

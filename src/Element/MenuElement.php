@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: li,script-supporting elements
  * Attributes: globals
  */
-final class MenuElement extends \iggyvolz\html\Element
+class MenuElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'menu';
 

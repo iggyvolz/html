@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,src,type,srcset,sizes,media,width,height
  */
-final class SourceElement extends \iggyvolz\html\Element
+class SourceElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

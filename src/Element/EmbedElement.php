@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,src,type,width,height,any
  */
-final class EmbedElement extends \iggyvolz\html\Element
+class EmbedElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals,accept-charset,action,autocomplete,enctype,method,name,novalidate,target
  */
-final class FormElement extends \iggyvolz\html\Element
+class FormElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'form';
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals,colspan,rowspan,headers,scope,abbr
  */
-final class TableCellElement extends \iggyvolz\html\Element
+class TableCellElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'th';
 

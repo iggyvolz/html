@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: source,track,transparent
  * Attributes: globals,src,crossorigin,poster,preload,autoplay,playsinline,loop,muted,controls,width,height
  */
-final class VideoElement extends \iggyvolz\html\Element
+class VideoElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'video';
 

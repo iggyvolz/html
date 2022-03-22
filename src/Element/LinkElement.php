@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,href,crossorigin,rel,as,media,hreflang,type,sizes,imagesrcset,imagesizes,referrerpolicy,integrity,blocking,color,disabled
  */
-final class LinkElement extends \iggyvolz\html\Element
+class LinkElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

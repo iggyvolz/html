@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals
  */
-final class SectionElement extends \iggyvolz\html\Element
+class SectionElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'section';
 

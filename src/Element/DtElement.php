@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals
  */
-final class DtElement extends \iggyvolz\html\Element
+class DtElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'dt';
 

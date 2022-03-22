@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals
  */
-final class CodeElement extends \iggyvolz\html\Element
+class CodeElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'code';
 

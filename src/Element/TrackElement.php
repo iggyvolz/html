@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,default,kind,label,src,srclang
  */
-final class TrackElement extends \iggyvolz\html\Element
+class TrackElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

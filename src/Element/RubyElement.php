@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing,rt,rp
  * Attributes: globals
  */
-final class RubyElement extends \iggyvolz\html\Element
+class RubyElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'ruby';
 

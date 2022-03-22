@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,src,srcdoc,name,sandbox,allow,allowfullscreen,width,height,referrerpolicy,loading
  */
-final class IFrameElement extends \iggyvolz\html\Element
+class IFrameElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'iframe';
 

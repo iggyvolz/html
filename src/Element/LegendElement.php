@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing,heading content
  * Attributes: globals
  */
-final class LegendElement extends \iggyvolz\html\Element
+class LegendElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'legend';
 

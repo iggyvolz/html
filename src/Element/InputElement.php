@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,accept,alt,autocomplete,checked,dirname,disabled,form,formaction,formenctype,formmethod,formnovalidate,formtarget,height,list,max,maxlength,min,minlength,multiple,name,pattern,placeholder,readonly,required,size,src,step,type,value,width
  */
-final class InputElement extends \iggyvolz\html\Element
+class InputElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals
  */
-final class NavElement extends \iggyvolz\html\Element
+class NavElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'nav';
 

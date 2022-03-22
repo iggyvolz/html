@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals,datetime
  */
-final class TimeElement extends \iggyvolz\html\Element
+class TimeElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'time';
 

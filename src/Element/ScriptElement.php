@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: script, data, or script documentation
  * Attributes: globals,src,type,async,defer,crossorigin,integrity,referrerpolicy,blocking
  */
-final class ScriptElement extends \iggyvolz\html\Element
+class ScriptElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\RawTextElement;
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: col,template
  * Attributes: globals,span
  */
-final class TableColElement extends \iggyvolz\html\Element
+class TableColElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'colgroup';
 

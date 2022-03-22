@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals
  */
-final class MainElement extends \iggyvolz\html\Element
+class MainElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'main';
 

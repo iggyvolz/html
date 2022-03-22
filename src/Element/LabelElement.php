@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals,for
  */
-final class LabelElement extends \iggyvolz\html\Element
+class LabelElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'label';
 

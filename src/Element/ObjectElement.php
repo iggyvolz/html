@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: param,transparent
  * Attributes: globals,data,type,name,form,width,height
  */
-final class ObjectElement extends \iggyvolz\html\Element
+class ObjectElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'object';
 

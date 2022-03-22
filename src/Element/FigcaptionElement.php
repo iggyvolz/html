@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals
  */
-final class FigcaptionElement extends \iggyvolz\html\Element
+class FigcaptionElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'figcaption';
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,alt,src,srcset,sizes,crossorigin,usemap,ismap,width,height,referrerpolicy,decoding,loading
  */
-final class ImageElement extends \iggyvolz\html\Element
+class ImageElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

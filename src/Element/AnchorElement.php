@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: transparent
  * Attributes: globals,href,target,download,ping,rel,hreflang,type,referrerpolicy
  */
-final class AnchorElement extends \iggyvolz\html\Element
+class AnchorElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'a';
 

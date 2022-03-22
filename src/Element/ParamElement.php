@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,name,value
  */
-final class ParamElement extends \iggyvolz\html\Element
+class ParamElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

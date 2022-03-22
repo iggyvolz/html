@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: transparent
  * Attributes: globals,cite,datetime
  */
-final class ModElement extends \iggyvolz\html\Element
+class ModElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'ins';
 

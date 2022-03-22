@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: legend,flow
  * Attributes: globals,disabled,form,name
  */
-final class FieldSetElement extends \iggyvolz\html\Element
+class FieldSetElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'fieldset';
 

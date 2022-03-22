@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: th,td,script-supporting elements
  * Attributes: globals
  */
-final class TableRowElement extends \iggyvolz\html\Element
+class TableRowElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'tr';
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: head,body
  * Attributes: globals,manifest
  */
-final class HtmlElement extends \iggyvolz\html\Element
+class HtmlElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'html';
 

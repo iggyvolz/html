@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals
  */
-final class RtElement extends \iggyvolz\html\Element
+class RtElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'rt';
 

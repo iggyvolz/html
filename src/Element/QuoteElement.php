@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals,cite
  */
-final class QuoteElement extends \iggyvolz\html\Element
+class QuoteElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'q';
 

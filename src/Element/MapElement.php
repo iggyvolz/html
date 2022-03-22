@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: transparent,area
  * Attributes: globals,name
  */
-final class MapElement extends \iggyvolz\html\Element
+class MapElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'map';
 

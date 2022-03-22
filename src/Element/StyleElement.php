@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: text
  * Attributes: globals,media,blocking
  */
-final class StyleElement extends \iggyvolz\html\Element
+class StyleElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\RawTextElement;
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: varies
  * Attributes: globals
  */
-final class NoscriptElement extends \iggyvolz\html\Element
+class NoscriptElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'noscript';
 

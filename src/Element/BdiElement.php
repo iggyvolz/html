@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals
  */
-final class BdiElement extends \iggyvolz\html\Element
+class BdiElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'bdi';
 

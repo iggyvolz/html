@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: flow
  * Attributes: globals,onafterprint,onbeforeprint,onbeforeunload,onhashchange,onlanguagechange,onmessage,onmessageerror,onoffline,ononline,onpagehide,onpageshow,onpopstate,onrejectionhandled,onstorage,onunhandledrejection,onunload
  */
-final class BodyElement extends \iggyvolz\html\Element
+class BodyElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'body';
 

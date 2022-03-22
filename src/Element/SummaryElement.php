@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing,heading content
  * Attributes: globals
  */
-final class SummaryElement extends \iggyvolz\html\Element
+class SummaryElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'summary';
 

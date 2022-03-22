@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals,disabled,form,formaction,formenctype,formmethod,formnovalidate,formtarget,name,type,value
  */
-final class ButtonElement extends \iggyvolz\html\Element
+class ButtonElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'button';
 

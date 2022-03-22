@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals
  */
-final class TemplateElement extends \iggyvolz\html\Element
+class TemplateElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'template';
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: text
  * Attributes: globals
  */
-final class TitleElement extends \iggyvolz\html\Element
+class TitleElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\EscapableRawTextElement;
 

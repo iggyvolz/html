@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals,value,max
  */
-final class ProgressElement extends \iggyvolz\html\Element
+class ProgressElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'progress';
 

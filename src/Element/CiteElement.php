@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals
  */
-final class CiteElement extends \iggyvolz\html\Element
+class CiteElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'cite';
 

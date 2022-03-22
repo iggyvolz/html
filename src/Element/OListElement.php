@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: li,script-supporting elements
  * Attributes: globals,reversed,start,type
  */
-final class OListElement extends \iggyvolz\html\Element
+class OListElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'ol';
 

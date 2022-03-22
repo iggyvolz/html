@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: option,script-supporting elements
  * Attributes: globals,disabled,label
  */
-final class OptGroupElement extends \iggyvolz\html\Element
+class OptGroupElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'optgroup';
 

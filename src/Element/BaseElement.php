@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,href,target
  */
-final class BaseElement extends \iggyvolz\html\Element
+class BaseElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

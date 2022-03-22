@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: tr,script-supporting elements
  * Attributes: globals
  */
-final class TableSectionElement extends \iggyvolz\html\Element
+class TableSectionElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'thead';
 

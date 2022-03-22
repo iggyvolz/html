@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing,option,script-supporting elements
  * Attributes: globals
  */
-final class DataListElement extends \iggyvolz\html\Element
+class DataListElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'datalist';
 

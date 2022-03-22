@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals,value
  */
-final class DataElement extends \iggyvolz\html\Element
+class DataElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'data';
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: phrasing
  * Attributes: globals,for,form,name
  */
-final class OutputElement extends \iggyvolz\html\Element
+class OutputElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'output';
 

@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,alt,coords,shape,href,target,download,ping,rel,referrerpolicy
  */
-final class AreaElement extends \iggyvolz\html\Element
+class AreaElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 

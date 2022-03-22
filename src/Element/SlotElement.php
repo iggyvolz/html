@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children: transparent
  * Attributes: globals,name
  */
-final class SlotElement extends \iggyvolz\html\Element
+class SlotElement extends \iggyvolz\html\Element
 {
     public const ELEMENT_NAME = 'slot';
 

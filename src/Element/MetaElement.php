@@ -13,7 +13,7 @@ namespace iggyvolz\html\Element;
  * Children:
  * Attributes: globals,name,http-equiv,content,charset,media
  */
-final class MetaElement extends \iggyvolz\html\Element
+class MetaElement extends \iggyvolz\html\Element
 {
     use \iggyvolz\html\VoidElement;
 
